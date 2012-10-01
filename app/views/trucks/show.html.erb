@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @truck.Name %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @truck.Location %>
+</p>
+
+
+<%= link_to 'Edit', edit_truck_path(@truck) %> |
+<%= link_to 'Back', trucks_path %>
